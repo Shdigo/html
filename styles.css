@@ -91,8 +91,8 @@ main {
 
 
 .gallery img {
-    width: 280px;
-    height: 200px;
+    width: 200;
+    height: 150px;
     object-fit: cover;
     margin: 10px;
     cursor: pointer;
@@ -116,7 +116,7 @@ main {
 
 .about-me-content {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -129,7 +129,7 @@ main {
 .about-me-image img {
     max-width: 70%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 50%; /* this make the image circle */
 }
 
 .about-me-text {
@@ -201,3 +201,5 @@ main {
 .bio {
     max-width: 600px;
 }
+
+ 
