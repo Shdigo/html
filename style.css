@@ -88,7 +88,7 @@ nav.sticky {
 
 .gallery h2 {
     text-align: center;
-    color: #FCAF45;
+    color: blue;
 	font-size: 35;
 }
 
@@ -100,9 +100,9 @@ nav.sticky {
 }
 
 .gallery img {
-    width: auto;
-    height: 200px;
-	max-width: 300px;
+    width: 300;
+    height: auto;
+	max-width: 200px;
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -130,3 +130,35 @@ footer {
 .center {
 	text-align: center;
 }
+
+.list {
+    text-align: center;
+    padding: 20px;
+	background-color: white;
+	align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+	
+	
+}
+
+.list ul {
+    list-style-type: none;
+    padding: 0;
+	
+	
+}
+
+.list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+    font-weight: none;
+}
+
+.list a:hover {
+    color: #ffd700;
