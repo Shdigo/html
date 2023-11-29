@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4f4f4;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+
+p {
+	text-align: center;
+}
+
+nav {
+    background-color: #FCAF45;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    transition: color 0.3s ease;
+}
+
+nav a.active {
+    background-color: #ff6600; /* Different color for Home */
+}
+
+nav a:hover {
+    color: black;
+}
+
+
+nav.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.locations {
+    text-align: center;
+    padding: 20px;
+	background-color: grey;
+	
+}
+
+.locations ul {
+    list-style-type: none;
+    padding: 0;
+	
+}
+
+.locations li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.locations a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.locations a:hover {
+    color: #ffd700;
+}
+
+.galleries {
+    padding: 20px;
+	max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+}
+
+.gallery {
+    margin-bottom: 40px;
+	
+}
+
+.gallery h2 {
+    text-align: center;
+    color: blue;
+	font-size: 35;
+}
+
+
+.gallery h3 {
+    text-align: center;
+    color: grey;
+	font-size: 21;
+}
+
+.gallery img {
+    width: 300;
+    height: auto;
+	max-width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+	object-fit: cover;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+.list {
+    text-align: center;
+    padding: 20px;
+	background-color: white;
+	align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+	
+	
+}
+
+.list ul {
+    list-style-type: none;
+    padding: 0;
+	
+	
+}
+
+.list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+    font-weight: none;
+}
+
+.list a:hover {
+    color: #ffd700;
